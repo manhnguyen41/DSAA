@@ -1,0 +1,48 @@
+{
+    "motos": [
+        {
+            "Loai xe": "Yamaha Sirius 110cc",
+            "Hang san xuat": "Yamaha",
+            "Model": "Xe so",
+            "So khung": "unknown",
+            "So may": "unknown",
+            "Bien so": "unknown",
+            "Tinh trang xe": "Chua thue"
+        },
+        {
+            "Loai xe": "Honda Air Blade 125cc",
+            "Hang san xuat": "Honda",
+            "Model": "Xe ga",
+            "So khung": "unknown",
+            "So may": "unknown",
+            "Bien so": "unknown",
+            "Tinh trang xe": "Chua thue"
+        },
+        {
+            "Loai xe": "Honda Vision",
+            "Hang san xuat": "Honda",
+            "Model": "Xe ga",
+            "So khung": "unknown",
+            "So may": "unknown",
+            "Bien so": "unknown",
+            "Tinh trang xe": "Chua thue"
+        }
+    ],
+    "contacts": [
+        {
+            "Ma hop dong": "12345",
+            "Ten nguoi": "Manh",
+            "So CMND/CCCD": "0123456789",
+            "So luong xe": 2,
+            "Loai xe": [
+                "Yamaha Sirius 110cc",
+                "Honda Vision"
+            ],
+            "Dat coc": 2100000,
+            "Thoi diem thue": "2023-01-01 00:00:01",
+            "Thoi diem tra": "2023-01-15 12:02:03",
+            "Tong tien thanh toan": 4200000.0,
+            "Trang thai hop dong": "Dang thuc hien"
+        }
+    ]
+}
