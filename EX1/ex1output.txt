@@ -1,7 +1,12 @@
-2
+3
+Anh
+Img:
+T1:012346789
+T2:022346789
 Dung Huy
-Img:a
-E1:s
+Img: data/dat1/person/img1.jpg
+T1:012346789
+E1:dung@dept.com.vn
 Thuan Hoang
 Img:
 T1:040449444
