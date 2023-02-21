@@ -1,0 +1,21 @@
+Loai xe: Yamaha Sirius 110cc
+Hang san xuat: Yamaha
+Model: Xe so
+So khung: unknown
+So may: unknown
+Bien so: unknown
+Tinh trang xe: Chua thue
+Loai xe: Honda Air Blade 125cc
+Hang san xuat: Honda
+Model: Xe ga
+So khung: unknown
+So may: unknown
+Bien so: unknown
+Tinh trang xe: Chua thue
+Loai xe: Honda Vision
+Hang san xuat: Honda
+Model: Xe ga
+So khung: unknown
+So may: unknown
+Bien so: unknown
+Tinh trang xe: Chua thue
