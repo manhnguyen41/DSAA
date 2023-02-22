@@ -92,7 +92,7 @@ if __name__ == '__main__':
     Stories = MyClass('stories', 1, len(rows) + 1)
     addStoryNames()
     addChapterNames()
-    ProcessAddSpecialName()
+    # ProcessAddSpecialName()
     # print(len(rows[1588]))
     f = open("ex2output.txt", "w+")
     for pre, fill, node in RenderTree(Stories):

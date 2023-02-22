@@ -1,8 +1,8 @@
 3
-Anh
-Img:
-T1:012346789
-T2:022346789
+Manh
+Img:alo
+T1:0123
+T2:019
 Dung Huy
 Img: data/dat1/person/img1.jpg
 T1:012346789

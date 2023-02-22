@@ -465,19 +465,29 @@ void ProcessRemoveSdt()
 
 void ProcessUpdateInfo()
 {
-    char name[100];
-    printf("Nhập tên người cần cập nhật: ");
+    char sdt[100];
+    printf("Nhập sô điện thoại cần cập nhật: ");
     __fpurge(stdin);
-    fgets(name, 100, stdin);
-    name[strlen(name) - 1] = '\0';
-    person *p = findName(root, name);
+    fgets(sdt, 100, stdin);
+    sdt[strlen(sdt) - 1] = '\0';
+    person *p = findSdt(root, sdt);
     if (p == NULL)
     {
-        printf("Không có %s trong danh bạ\n", name);
-        ProcessRemovePerson();
+        char name[100];
+        printf("Không có %s trong danh bạ\n", sdt);
+        printf("Nhập tên: ");
+        fgets(name, 100, stdin);
+        name[strlen(name) - 1] = '\0';
+        phoneNumbers *Sdt = makeSdt(sdt);
+        root = insertLast(name, "", Sdt, NULL);
     }
     else
     {
+        char name[100];
+        printf("Nhập tên mới: ");
+        fgets(name, 100, stdin);
+        name[strlen(name) - 1] = '\0';
+        strcpy(p->name, name);
         char newImg[100];
         printf("Nhập đường dẫn ảnh mới: ");
         scanf("%s", newImg);
@@ -488,7 +498,7 @@ void ProcessUpdateInfo()
         while (sdt != NULL)
         {
             char newNumber[100];
-            printf("Nhập số điện thoại thứ %d mới: ", j);
+            printf("Nhập số điện thoại thứ %d mới: ", j++);
             scanf("%s", newNumber);
             fflush(stdin);
             strcpy(sdt->PhoneNumber, newNumber);
@@ -499,7 +509,7 @@ void ProcessUpdateInfo()
         while (email != NULL)
         {
             char newEmail[100];
-            printf("Nhập email thứ %d mới: ", j);
+            printf("Nhập email thứ %d mới: ", j++);
             scanf("%s", newEmail);
             fflush(stdin);
             strcpy(email->Email, newEmail);
